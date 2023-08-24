@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 120em;
+    height: 10em;
+    background: linear-gradient(to bottom, #09308b 60%, #091a64 60%);
+}
+
+.img {
+    width: 10em;
+    margin-left: 10em;
+}
+
+.texto1 {
+    margin-left: 6em;
+    margin-top: 3.5em;
+    font-size: 2em;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.centro {
+    margin-left: 7em;
+    width: 105em;
+    height: 47em;
+}
+
+.parte1 {
+    margin-left: 5%;
+    width: 90%;
+    height: 10em;
+}
+
+.labell {
+    width: 7em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 2em;
+    outline: none;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.b{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+
+}
+
+input[type="radio"] {
+    appearance: none;
+    border: 2px solid black;
+    width: 2em;
+    height: 2em;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+    background-color: white;
+}
+
+input[type="radio"]:checked {
+    background-color: black;
+}
+.parte2 {
+    margin-left: 5%;
+    width: 90%;
+    height: 35em;
+}
+.acompanhantetexto {
+    display: none;
+    margin-top: 0.5em;
+    width: 10em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1em;
+    outline: none;
+}
+
+.acompanhantetexto2 {
+    display: none;
+    width: 10em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1em;
+    outline: none;
+}
+
+.acompanhantetexto3 {
+    display: none;
+    width: 10em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1em;
+    outline: none;
+}
